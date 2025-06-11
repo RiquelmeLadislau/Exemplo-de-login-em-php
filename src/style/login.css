@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login{
+    width: 400px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+.login:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+.login h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.login h1:hover {
+    color: #e0e0e0;
+    transition: color 0.3s ease;
+    
+}
+.login p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+.login input {
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s ease;
+    padding: 20px;
+}
+.login ::placeholder {
+    color: #000000;
+    opacity: 0.6;
+    font-size: 16px;
+}
+.login input::placeholder:hover {
+    transition: opacity 0.3s ease;
+}
+.login input:hover {
+    background-color: #e0e0e0;
+}
+.login input:focus {
+    outline: none;
+}
+.login button {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s ease transform 0.1s ease;
+}
+.login button:hover {
+    background-color: #e0e0e0;
+}
+.login button:focus {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
